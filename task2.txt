@@ -1,0 +1,14 @@
+Version Control Tools - git with GitHub
+- Account Create & Setup
+- Remote --> It is a common repository that all team members use to exchange their changes.
+
+- Branch --> it just shows the branches working locally.
+
+
+- Clone --> creates a local copy of a project that already exists remotedly. The clone includes all the project files, history and branches.
+
+- Commit --> It's like taking a photo. anything that's been staged with "git" add will become a part of the snapshot with "git commit".
+
+- Push --> updates the remote repository with any commits made locally to a branch.
+
+- Pull --> it updates the changes made by the other teammate who has commits to the branch on a remote and later would like to review changes locally.

@@ -1,0 +1,80 @@
+What is the use of sudo? where to use and where we should we use?
+--> The sudo command helps allow user to run program with the security privileges of another user, generally the superuser.
+
+uname --> system information
+
+whoami --> show current user
+
+cd --> changes directory
+
+pwd --> print current working directory
+
+ls --> list files
+
+clear --> clear terminal
+
+cp --> copy
+
+cat --> merge data
+
+head --> print data from start
+
+tail --> print data from end
+
+mv --> move
+
+touch --> gets the individual variable 
+
+mkdir --> make directory
+
+rm --> remove 
+
+rmdir --> remove directory
+
+ps --> find running processes pid
+
+kill --> kill process
+
+chmod & chown (Use on custom folders and files not on system files or folders) --> "chmod" allows you to set Read,Write,Execute Permissions, whereas "chown" enables you to change who the owner of the file is.
+
+apt --> modern package manager for installing, updating and managing packages.
+
+apt-get --> legacy, script-friendly version of apt.
+(Identify difference between apt and apt-get) --> 
+Difference:
+- apt is more user-friendly.
+- apt-get is better for scripts and backward compatibility.
+
+history --> shows the command history of the current session.
+
+nano (Text Editor) --> It is used to open the Nano text editor with administrative privileges, allowing you to edit system files that require root access.
+
+ifconfig --> displays or configures network interfaces. It requires the superuser privileges to modify the network setting.
+
+ping --> Ping is a network utility used to test the reachability of a network host.
+
+-----------------------------------------------
+
+Unix/Linux Operators to Practice:
+
+& --> 
+
+&& --> 
+
+| --> it connects the standard output of one command to the standard input of another command. This allows you to chain commands together, where the output of the first command becomes the input for the second, and so on.
+
+< --> takes the standard input for a command from a file instead of the keyboard.
+
+>  --> redirects the standard output of a command to a file.(overwrite).
+
+<< --> 
+
+>> --> same as ">" and add one appending to it if the file already exists. and if doesn't exists it creates one.
+
+~ --> 
+
+/ --> 
+
+* --> 
+ 
+^ --> 
